@@ -1,3 +1,53 @@
 * {
-    outline: dotted red 3px;
+    outline: dotted white 3px;
+}
+
+body {
+    background-color: darkolivegreen;
+    color: orangered;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: orangered;
+    justify-content: space-between;
+    color: darkolivegreen;
+}
+
+h1 {
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+nav {
+    margin: auto 0px;
+}
+
+
+header nav li {
+    display: inline;
+    list-style: none;
+    margin-left: 14px;
+    font-size: 24px;
+}
+
+a {
+    color: lightblue;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+main section {
+    display: flex;
+}
+
+h2 {
+    padding-right: 5%;
+}
+
+footer {
+    text-align: center;
 }
